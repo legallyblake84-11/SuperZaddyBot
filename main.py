@@ -10,7 +10,7 @@ def handle_message():
 
 @app.route('/', methods=['GET'])
 def index():
-    return 'SuperZaddyBot is alive.', 200
+return 'SuperZaddyBot is now alive.', 200
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
